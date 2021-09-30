@@ -1,6 +1,6 @@
 import React from "react";
 
-const PokemonThumnail = ({ id, name, image, type }) => {
+const PokemonThumbnail = ({ id, name, image, type }) => {
   const style = `thumb-container ${type}`;
   return (
     <div className={style}>
@@ -15,4 +15,4 @@ const PokemonThumnail = ({ id, name, image, type }) => {
     </div>
   );
 };
-export default PokemonThumnail;
+export default PokemonThumbnail;

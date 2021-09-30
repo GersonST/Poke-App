@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PokemonThumnail from "./components/PokemonThumnail";
+import PokemonThumbnail from "./components/PokemonThumbnail";
 
 function App() {
   const [allPokemons, setAllPokemons] = useState([]);
@@ -35,7 +35,7 @@ function App() {
       <div className="pokemon-container">
         <div className="all-container"></div>
         {allPokemons.map((pokemon, index) => (
-          <PokemonThumnail
+          <PokemonThumbnail
             id={pokemon.id}
             name={pokemon.name}
             image={pokemon.sprites.front_default}
