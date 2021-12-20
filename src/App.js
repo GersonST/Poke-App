@@ -6,6 +6,7 @@ function App() {
   const [loadMore, setLoadMore] = useState(
     "https://pokeapi.co/api/v2/pokemon?limit=20"
   );
+  //Testando como realizar Pull Requests
 
   const getAllPokemons = async () => {
     const res = await fetch(loadMore);
